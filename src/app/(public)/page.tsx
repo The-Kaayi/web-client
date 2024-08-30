@@ -1,5 +1,10 @@
+import Display from "@/components/Display/Display";
 import styles from "./page.module.scss";
 
 export default function Home() {
-  return <main className={styles.main}>The Kaayi</main>;
+  return (
+    <main className={styles.main}>
+      <Display />
+    </main>
+  );
 }

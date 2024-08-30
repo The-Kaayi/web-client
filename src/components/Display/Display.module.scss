@@ -1,0 +1,9 @@
+@import "@/styles/abstracts/variables";
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: $font-size-12;
+}
